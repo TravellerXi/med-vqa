@@ -17,7 +17,7 @@ from multi_level_model import BAN_Model
 import torch
 from train import train
 from classify_question import classify_model
-torch.autograd.set_detect_anomaly(True).
+torch.autograd.set_detect_anomaly(True)
 def parse_args():
     parser = argparse.ArgumentParser(description="Med VQA")
     # GPU config
